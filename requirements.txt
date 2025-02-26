@@ -1,1 +1,24 @@
+🔹 Full Requirements to Run the Project
+
+✅ System Requirements
+
+Python 3.8+
+
+Operating System: Windows, macOS, or Linux
+
+Microphone Access: Required for recording audio
+
+✅ Required Python Libraries
+
+Install the dependencies using:
+
+pip install -r requirements.txt
+
+Or install them individually:
+
+pip install Flask pyaudio wave tkinter threading os datetime werkzeug
+
+✅ Required Ports
+
+Port 5000 (Ensure it's free for Flask Web App)
 
