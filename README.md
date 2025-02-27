@@ -14,7 +14,7 @@ This project is a Python-based sound recorder with a Tkinter GUI & Flask Web Int
 
 **📂 Folder Structure**
 
-📁 SoundRecorderProject
+📁 audio-recorder
 
 │── 📁 recordings          # Stores all recorded audio files
 
