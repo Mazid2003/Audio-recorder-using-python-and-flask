@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recorded Audio Files 🎙️</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+        .container { max-width: 600px; margin: auto; }
+        h2 { color: #333; }
+        .audio-item { margin-bottom: 15px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; }
+        audio { width: 100%; }
+        a { text-decoration: none; color: blue; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h2>Recorded Audio Files 🎙️</h2>
+    <div class="container">
+        {% for file in files %}
+        <div class="audio-item">
+            <p>{{ file }}</p>
+            <audio controls>
+                <source src="{{ url_for('play_audio', filename=file) }}" type="audio/wav">
+                Your browser does not support the audio tag.
+            </audio>
+            <br>
+            <a href="{{ url_for('play_audio', filename=file) }}" download>⬇ Download</a>
+        </div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
