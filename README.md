@@ -34,7 +34,7 @@ This project is a Python-based sound recorder with a Tkinter GUI & Flask Web Int
 
 **1️⃣ Clone the Repository**
 
-git clone https://github.com/Mazid2003/sound-recorder-using-python-and-flask.git
+git clone https://github.com/Mazid2003/Audio-recorder-using-python-and-flask.git
 
 cd (directory name or project_folder name)
 
