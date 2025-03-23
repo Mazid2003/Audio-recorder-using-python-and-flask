@@ -72,7 +72,11 @@ wave (Audio Processing) 🎵
 
 **💡 Future Improvements**
 
-🚀 Add Real-time Audio Visualization📂 Cloud Storage for Recordings🔊 Noise Reduction & Audio Enhancements
+🚀 Add Real-time Audio Visualization📂 Cloud Storage for Recordings🔊 Noise Reduction & Audio Enhancements.
+
+**💬 Want to Collaborate?**
+
+Feel free to fork the repo, submit PRs, and give your feedback! 🔥💡
 
 **📜 License**
 
